@@ -6,6 +6,7 @@
 #include<X11/Xlib.h>
 #define LENGTH(X)               (sizeof(X) / sizeof (X[0]))
 #define CMDLENGTH		50
+#define STATUSLENGTH (LENGTH(blocks) * CMDLENGTH + 1 + LENGTH(leftpad) + LENGTH(rightpad))
 
 typedef struct {
 	char* icon;
@@ -35,7 +36,7 @@ static Display *dpy;
 static int screen;
 static Window root;
 static char statusbar[LENGTH(blocks)][CMDLENGTH] = {0};
-static char statusstr[2][256];
+static char statusstr[2][STATUSLENGTH];
 static int statusContinue = 1;
 static void (*writestatus) () = setroot;
 
@@ -139,11 +140,15 @@ int getstatus(char *str, char *last)
 {
 	strcpy(last, str);
 	str[0] = '\0';
+	if (leftpad[0] != '\0')
+		strcat(str, leftpad);
     for(int i = 0; i < LENGTH(blocks); i++) {
 		strcat(str, statusbar[i]);
         if (i == LENGTH(blocks) - 1)
             strcat(str, " ");
     }
+	if (rightpad[0] != '\0')
+		strcat(str, rightpad);
 	str[strlen(str)-1] = '\0';
 	return strcmp(str, last);//0 if they are the same
 }
