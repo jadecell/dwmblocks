@@ -2,15 +2,15 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
-    {"", "cpuperc dwm",				5,		                9},
-	{"", "pacupdate dwm",			18000,	                8},
-	{"", "memory dwm",				5,		                7},
-	{"", "corona",			        18000,	                6},
-	{"", "forecast",				18000,	                5},
-	{"", "cputemp desktop",	        5,		                4},
-	{"", "volume dwm",				0,		                3},
-	{"", "clock dwm",				60,		                2},
-	{"", "networking",				5,		                1},
+    {"", "sb-cpuperc dwm",				5,		                9},
+	{"", "sb-pacupdate dwm",			18000,	                8},
+	{"", "sb-memory dwm",				5,		                7},
+	{"", "sb-corona",			        18000,	                6},
+	{"", "sb-forecast",				18000,	                5},
+	{"", "sb-cputemp desktop",	        5,		                4},
+	{"", "sb-volume dwm",				0,		                3},
+	{"", "sb-clock dwm",				60,		                2},
+	{"", "sb-networking",				5,		                1},
 
 };
 
