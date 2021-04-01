@@ -6,7 +6,7 @@ static const Block blocks[] = {
 	{"", "sb-pacupdate dwm",			18000,	                8},
 	{"", "sb-memory dwm",				5,		                7},
 	{"", "sb-corona",			        18000,	                6},
-	{"", "sb-forecast",				18000,	                5},
+	{"", "sb-forecast",				    18000,	                5},
 	{"", "sb-cputemp desktop",	        5,		                4},
 	{"", "sb-volume dwm",				0,		                3},
 	{"", "sb-clock dwm",				60,		                2},
