@@ -10,6 +10,7 @@ static const Block blocks[] = {
     {"", "sb-cputemp desktop", 5, 4},
     {"", "sb-volume dwm", 0, 3},
     {"", "sb-clock dwm", 1, 2},
+    {"", "sb-networking dwm", 1, 1},
 
 };
 
