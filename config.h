@@ -4,6 +4,7 @@ static const Block blocks[] = {
     /*Icon*/ /*Command*/ /*Update Interval*/ /*Update Signal*/
 
     {"", "sb-cpuperc dwm", 5, 9},
+    {"", "sb-pacupdate dwm", 21600, 8},
     {"", "sb-memory dwm", 5, 7},
     {"", "sb-corona", 21600, 6},
     {"", "sb-forecast", 21600, 5},
