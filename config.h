@@ -3,10 +3,10 @@
 static const Block blocks[] = {
     /*Icon*/ /*Command*/ /*Update Interval*/ /*Update Signal*/
 
+    {"", "sb-torrent", 1, 10},
     {"", "sb-cpuperc dwm", 5, 9},
     {"", "sb-pacupdate dwm", 21600, 8},
     {"", "sb-memory dwm", 5, 7},
-    {"", "sb-corona", 21600, 6},
     {"", "sb-forecast", 21600, 5},
     {"", "sb-cputemp desktop", 5, 4},
     {"", "sb-volume dwm", 0, 3},
