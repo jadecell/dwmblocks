@@ -7,7 +7,6 @@ static const Block blocks[] = {
     {"", "sb-news", 0, 6},
     {"", "sb-torrent", 1, 10},
     {"", "sb-cpuperc dwm", 5, 9},
-    {"", "sb-pacupdate dwm", 21600, 8},
     {"", "sb-memory dwm", 5, 7},
     {"", "sb-cputemp desktop", 5, 4},
     {"", "sb-volume dwm", 0, 3},
