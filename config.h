@@ -4,6 +4,7 @@ static const Block blocks[] = {
     /*Icon*/ /*Command*/ /*Update Interval*/ /*Update Signal*/
 
     {"", "sb-spotify", 1, 11},
+    {"", "sb-pacupdate dwm", 7200, 8},
     {"", "sb-news", 0, 6},
     {"", "sb-torrent", 1, 10},
     {"", "sb-cpuperc dwm", 5, 9},
@@ -17,7 +18,7 @@ static const Block blocks[] = {
 
 // sets delimeter between status commands. NULL character ('\0') means no
 // delimeter.
-static char *delim = " | ";
+static char *delim = " ";
 
 // Sets delimiters around the full statusbar. NULL character ('\0') means no
 // delimeter.
