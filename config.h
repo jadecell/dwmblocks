@@ -8,8 +8,6 @@ static const Block blocks[] = {
     {"", "sb-cpuperc dwm", 5, 9},
     {"", "sb-memory dwm", 5, 7},
     {"", "sb-cputemp", 5, 4},
-    {"", "sb-volume dwm", 0, 3},
-    {"", "sb-upt dwm", 15, 5},
     {"", "sb-clock dwm", 1, 2},
     {"", "sb-networking dwm", 1, 1},
 
