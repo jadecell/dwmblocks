@@ -3,17 +3,15 @@
 static const Block blocks[] = {
     /*Icon*/ /*Command*/ /*Update Interval*/ /*Update Signal*/
 
-    //{"", "sb-mail", 5, 11},
-    //{"", "sb-news", 0, 6},
-    //{"", "sb-torrent", 5, 10},
-    //{"", "sb-cpuperc dwm", 5, 9},
-    //{"", "sb-memory dwm", 5, 7},
-    //{"", "sb-packcount dwm", 1, 8},
-    //{"", "sb-cputemp", 5, 4},
-    //{"", "sb-volume dwm", 0, 3},
-    //{"", "sb-upt dwm", 15, 5},
-    {"", "/home/jackson/.local/bin/statusbar/sb-clock dwm", 1, 2},
-    //{"", "sb-networking dwm", 1, 1},
+    {"", "sb-news", 0, 6},
+    {"", "sb-torrent", 5, 10},
+    {"", "sb-cpuperc dwm", 5, 9},
+    {"", "sb-memory dwm", 5, 7},
+    {"", "sb-cputemp", 5, 4},
+    {"", "sb-volume dwm", 0, 3},
+    {"", "sb-upt dwm", 15, 5},
+    {"", "sb-clock dwm", 1, 2},
+    {"", "sb-networking dwm", 1, 1},
 
 };
 
