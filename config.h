@@ -12,7 +12,7 @@ static const Block blocks[] = {
     //{"", "sb-cputemp", 5, 4},
     //{"", "sb-volume dwm", 0, 3},
     //{"", "sb-upt dwm", 15, 5},
-    {"", "/home/jackson/.local/bin/statusbar/sb-clock nerd", 1, 2},
+    {"", "/home/jackson/.local/bin/statusbar/sb-clock dwm", 1, 2},
     //{"", "sb-networking dwm", 1, 1},
 
 };
